@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+Leading#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 class Player(object):
@@ -10,18 +10,18 @@ class Player(object):
             self.name = (user.username).encode('utf-8')
         self.role = None
         if game_master:
-            self.role = '☝🏽️ Ведущий'
+            self.role = '☝🏽️Leading'
 
     def __eq__(self, other):
         return self.identity == other.id
 
 roles = {
-    'mafia' : '🔫 Мафия',
-    'godfather' : '💂 Крестный отец',
-    'civilian' : '👦 Обыватель',
-    'detective' : '👮 Детектив',
-    'doctor' : '🚑 Доктор',
-    'prostitute' : '💃 Красотка',
-    'killer' : '🔪 Маньяк'
+    'mafia' : '🔫 Mafia',
+    'godfather' : '💂  Godfather',
+    'civilian' : '👦 The Philistine',
+    'detective' : '👮 Detective',
+    'doctor' : '🚑 Doctor',
+    'prostitute' : '💃 Gorgeous',
+    'killer' : '🔪 Maniac'
 }
     
