@@ -39,7 +39,8 @@ def new(bot, update):
         bot.sendMessage(
             update.message.chat_id,
             'We're starting a new game, join us quickly! \r\n{} {}'
-            .format(game_master.name, game_master.role))
+            .format(game_master.name, game_master.role)
+            )
 
 def join(bot, update):
     """join game"""
